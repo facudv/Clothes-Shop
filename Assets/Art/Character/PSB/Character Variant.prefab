@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5548600918974421329, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4570829850012641954, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
       propertyPath: m_SortingOrder
@@ -914,6 +914,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2087988002385407159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7649027829802876346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf3981ad8183574f8f5bd8cc076eac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &5068951286927908231
 MonoBehaviour:
   m_ObjectHideFlags: 0

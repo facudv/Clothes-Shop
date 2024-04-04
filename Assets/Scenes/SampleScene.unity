@@ -401,11 +401,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1586044591 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4759159512851921595, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-  m_PrefabInstance: {fileID: 7908604169727870811}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7908604169727870811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -413,74 +408,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 322097843066403161, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1025338845906212583, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_AutoRebind
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1025338845906212583, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_BoneTransforms.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1025338845906212583, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_BoneTransforms.Array.data[0]
-      value: 
-      objectReference: {fileID: 1586044591}
-    - target: {fileID: 1426171737738259844, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -3123365562338943999, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
-    - target: {fileID: 2068554772891367317, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_SpriteKey
-      value: -9.955563e-39
-      objectReference: {fileID: 0}
-    - target: {fileID: 2172263053879080215, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_SpriteKey
-      value: 3118.6584
-      objectReference: {fileID: 0}
-    - target: {fileID: 3130325299493995894, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -8194248200197458028, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
-    - target: {fileID: 5101136352248648780, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -1859900691784626065, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
-    - target: {fileID: 5109294643714292539, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_SpriteKey
-      value: -1.3584934e-36
-      objectReference: {fileID: 0}
-    - target: {fileID: 5185900128642856054, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_SpriteKey
-      value: 25808.113
-      objectReference: {fileID: 0}
-    - target: {fileID: 6863038655468616360, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7649027829802876346, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
       propertyPath: m_Name
       value: Character
       objectReference: {fileID: 0}
-    - target: {fileID: 7751021309867292977, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 6382425147856628795, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
-    - target: {fileID: 7751021309867292977, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8303172132497351329, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_SpriteKey
-      value: -51359.875
-      objectReference: {fileID: 0}
-    - target: {fileID: 8799092624689582350, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 5512482571489114275, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
     - target: {fileID: 8858254582719014361, guid: 966296375ae3d3b47ba878074ea032e3, type: 3}
       propertyPath: m_RootOrder
       value: 1

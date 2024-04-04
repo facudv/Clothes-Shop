@@ -429,8 +429,8 @@ MonoBehaviour:
       m_Sprite: {fileID: 7522523800984147716, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: 7522523800984147716, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
-    - m_Name: Entry_1
-      m_Hash: 1125701612
+    - m_Name: Rainbow
+      m_Hash: -1039998294
       m_Sprite: {fileID: -4143406536362388388, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: -4143406536362388388, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
