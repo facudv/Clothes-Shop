@@ -1,0 +1,469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 36
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: FHead
+    m_Hash: 924113994
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: -6380790396407052532, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6380790396407052532, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: Npc
+      m_Hash: 2126590156
+      m_Sprite: {fileID: -6756759636615741961, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6756759636615741961, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 2
+  - m_Name: BHead
+    m_Hash: -1030456694
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 3980722406806113768, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3980722406806113768, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: SHead
+    m_Hash: -1626028872
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 5389595598445675389, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5389595598445675389, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: FChest
+    m_Hash: -1805376644
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 5730135020550097931, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5730135020550097931, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: 6382425147856628795, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6382425147856628795, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: -8244151293018325642, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8244151293018325642, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: -6693777985558830673, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6693777985558830673, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    - m_Name: Npc
+      m_Hash: 2126590156
+      m_Sprite: {fileID: -4678553233677764352, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4678553233677764352, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 5
+  - m_Name: BChest
+    m_Hash: 267739498
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 7676276265488386302, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7676276265488386302, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: 108998740637194865, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 108998740637194865, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: -7841024520475032039, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7841024520475032039, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 217165125891412420, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 217165125891412420, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: SChest
+    m_Hash: -947933100
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: -3090549733198673905, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3090549733198673905, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -5322573727960119960, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5322573727960119960, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 412360319325099359, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 412360319325099359, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: -3110051486160126467, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3110051486160126467, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: FRLeg
+    m_Hash: -1035369888
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 3840535006414595218, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3840535006414595218, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -3123365562338943999, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3123365562338943999, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 3189672642633603884, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3189672642633603884, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: -939125568814906, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -939125568814906, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    - m_Name: Npc
+      m_Hash: 2126590156
+      m_Sprite: {fileID: -1243973959648211518, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1243973959648211518, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 5
+  - m_Name: BRLeg
+    m_Hash: 935928992
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 8941136300783461192, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8941136300783461192, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: 8215861081055946223, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8215861081055946223, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 7025547553487019314, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7025547553487019314, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 7984556940719334391, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7984556940719334391, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: SRLeg
+    m_Hash: 1783208594
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 2710017374924074542, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2710017374924074542, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: 801106548577074339, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 801106548577074339, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 1940568506612138933, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1940568506612138933, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 9123866693122814639, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 9123866693122814639, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: FLLeg
+    m_Hash: 1922015948
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: -8720722336230323670, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8720722336230323670, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -1859900691784626065, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1859900691784626065, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 6262473153945727698, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6262473153945727698, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 8099375989488569485, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8099375989488569485, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    - m_Name: Npc
+      m_Hash: 2126590156
+      m_Sprite: {fileID: 153789119001485065, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 153789119001485065, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 5
+  - m_Name: BLLeg
+    m_Hash: -2029059060
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 6265087799698793806, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6265087799698793806, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: 7660701188862694656, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7660701188862694656, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 7858890118942882803, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7858890118942882803, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 5832477440672372479, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5832477440672372479, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: SLLeg
+    m_Hash: -628114882
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 196883850552239190, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 196883850552239190, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -4513760618569034550, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4513760618569034550, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 1433025067099385443, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1433025067099385443, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 999848802570798428, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 999848802570798428, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: FRArm
+    m_Hash: 801602747
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 563979171842059721, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 563979171842059721, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: 5512482571489114275, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5512482571489114275, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: -7385878421046994941, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7385878421046994941, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: -37224202474660548, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -37224202474660548, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    - m_Name: Npc
+      m_Hash: 2126590156
+      m_Sprite: {fileID: -1586330726692706097, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1586330726692706097, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 5
+  - m_Name: BRArm
+    m_Hash: -632825221
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 286781442814192713, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 286781442814192713, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -965417385986245248, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -965417385986245248, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 8920468495738976665, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8920468495738976665, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 4897567468750677776, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4897567468750677776, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: SRArm
+    m_Hash: -2016975799
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 6478953415001941436, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 6478953415001941436, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: 412043540922071741, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 412043540922071741, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 7349558251453553958, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7349558251453553958, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: -8589403856460275131, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8589403856460275131, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: FLArm
+    m_Hash: -1627300841
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 5917303967335988853, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5917303967335988853, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -8194248200197458028, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8194248200197458028, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: -8962960235030830511, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8962960235030830511, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: 4332775311106677105, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 4332775311106677105, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    - m_Name: Npc
+      m_Hash: 2126590156
+      m_Sprite: {fileID: 5662913516152424697, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5662913516152424697, guid: 210a8fe0e4b0faf409981ebb56b7a3dc, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 5
+  - m_Name: BLArm
+    m_Hash: 1786903255
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: 8326453242784659040, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8326453242784659040, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -732381904028772889, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -732381904028772889, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: -2072850526775462780, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2072850526775462780, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: -3422068740811371588, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3422068740811371588, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: SLArm
+    m_Hash: 922830053
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Base
+      m_Hash: 1619415391
+      m_Sprite: {fileID: -6645117741138573515, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6645117741138573515, guid: c3e4c3854405bf145901f04a61c91864, type: 3}
+    - m_Name: LeatherSuit
+      m_Hash: -390152315
+      m_Sprite: {fileID: -2181274332201475643, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2181274332201475643, guid: 2ac216efb0bb6eb4d92a25880329413d, type: 3}
+    - m_Name: SantaClaus
+      m_Hash: 1487748244
+      m_Sprite: {fileID: 7522523800984147716, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7522523800984147716, guid: 0a89a90709bdd1f42b8b7f061cb65364, type: 3}
+    - m_Name: Rainbow
+      m_Hash: -1039998294
+      m_Sprite: {fileID: -4143406536362388388, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4143406536362388388, guid: 3162ac39b22cd6e4c99b8b8c00b6861c, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  m_PrimaryLibraryGUID: 

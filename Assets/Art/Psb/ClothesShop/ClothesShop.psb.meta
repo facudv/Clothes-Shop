@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 6271f91a564440c4b91a2ae1774adb3e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 256
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Rainbow
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6593
+      y: 520
+      width: 464
+      height: 276
+    spriteID: aaf5b4a6a8c4a0c42b9dd0f9f0e563d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5034, y: -1301}
+  - name: SantaClaus
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7357
+      y: 1614
+      width: 463
+      height: 297
+    spriteID: e1542a49cae1ac541917f165ad718538
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6360, y: -186}
+  - name: LeatherSuit
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7357
+      y: 1919
+      width: 463
+      height: 278
+    spriteID: 6b4451cb9c5e0f54690c8f705ee59374
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6932, y: 101}
+  - name: Counter
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6593
+      y: 804
+      width: 139
+      height: 636
+    spriteID: 86b9bfad1c2a8ff4d8ddb20fd4b3c25e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 6365, y: -759}
+  - name: Closet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5548
+      y: 4
+      width: 1037
+      height: 1602
+    spriteID: 8072b0b0dada8a94ea39d0f9917544f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1193, y: 1}
+  - name: Limit
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3100
+      width: 5532
+      height: 3088
+    spriteID: a0fb79acadfb2ed4e8cade20de003526
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -1, y: 3100}
+  - name: Money
+    originalName: 
+    pivot: {x: 0.5106518, y: -0.7288922}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 7828
+      y: 1919
+      width: 308
+      height: 235
+    spriteID: cd984ceb4b5a6ba44ac77ad173c56731
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 5213, y: 953}
+  - name: Table
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6593
+      y: 4
+      width: 1134
+      height: 508
+    spriteID: 0d5881021756b96438c63acccbb4be0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4391, y: -581}
+  - name: Carpet
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 5548
+      y: 1614
+      width: 1801
+      height: 863
+    spriteID: d5117f9731764134188ce3531d03bff3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 3684, y: 1285}
+  - name: FloorBase
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 5536
+      height: 3088
+    spriteID: 6b4aa7a5625b30241a405fe2f26a1f31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Clote Shop
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: db3a7994696c3e94093512c11eb67b2a
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Clothes
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 2c84a28e753aedf4eac8fc0808307012
+    layerID: 44
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Rainbow
+    spriteName: Rainbow
+    isGroup: 0
+    parentIndex: 1
+    spriteID: aaf5b4a6a8c4a0c42b9dd0f9f0e563d0
+    layerID: 42
+    mosaicPosition: {x: 6593, y: 520}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: SantaClaus
+    spriteName: SantaClaus
+    isGroup: 0
+    parentIndex: 1
+    spriteID: e1542a49cae1ac541917f165ad718538
+    layerID: 31
+    mosaicPosition: {x: 7357, y: 1614}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: LeatherSuit
+    spriteName: LeatherSuit
+    isGroup: 0
+    parentIndex: 1
+    spriteID: 6b4451cb9c5e0f54690c8f705ee59374
+    layerID: 20
+    mosaicPosition: {x: 7357, y: 1919}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Counter
+    spriteName: Counter
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 86b9bfad1c2a8ff4d8ddb20fd4b3c25e
+    layerID: 14
+    mosaicPosition: {x: 6593, y: 804}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Furniture
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 9380757509cdb634e9c6ac5b3f7a7466
+    layerID: 9
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Closet
+    spriteName: Closet
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 8072b0b0dada8a94ea39d0f9917544f3
+    layerID: 8
+    mosaicPosition: {x: 5548, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Limit
+    spriteName: Limit
+    isGroup: 0
+    parentIndex: 6
+    spriteID: a0fb79acadfb2ed4e8cade20de003526
+    layerID: 7
+    mosaicPosition: {x: 4, y: 3100}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Money
+    spriteName: Money
+    isGroup: 0
+    parentIndex: 6
+    spriteID: cd984ceb4b5a6ba44ac77ad173c56731
+    layerID: 5
+    mosaicPosition: {x: 7828, y: 1919}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Table
+    spriteName: Table
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 0d5881021756b96438c63acccbb4be0d
+    layerID: 4
+    mosaicPosition: {x: 6593, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Carpet
+    spriteName: Carpet
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d5117f9731764134188ce3531d03bff3
+    layerID: 3
+    mosaicPosition: {x: 5548, y: 1614}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: FloorBase
+    spriteName: FloorBase
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6b4aa7a5625b30241a405fe2f26a1f31
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 1
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
