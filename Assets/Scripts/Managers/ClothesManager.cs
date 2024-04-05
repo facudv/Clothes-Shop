@@ -10,20 +10,15 @@ public class ClothesManager : MonoBehaviour
 {
     private List<SpriteResolver> _resolvers;
     private ClothesType _clothsType;
+    [SerializeField] private DialogueContainer dialogue;
+    private bool OnCloset() => _onCloset;
+    private bool _onCloset;
 
     private void Awake()
     {
         _resolvers = GetComponentsInChildren<SpriteResolver>(true).ToList();
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            _clothsType = _clothsType == ClothesType.Base ? ClothesType.Rainbow : ClothesType.LeatherSuit;
-            ChangeClothes();
-        }        
-    }
 
     private void ChangeClothes()
     {
@@ -32,6 +27,18 @@ public class ClothesManager : MonoBehaviour
             resolver.SetCategoryAndLabel(resolver.GetCategory(), _clothsType.ToString());
         }
     }
+    public void SetClothes(ClothesType type)
+    {
+        if(!OnCloset())
+        {
+            GameManager.Instance.DialogueManager.Initialize(dialogue);
+            return;
+        }
+        _clothsType = type;
+        ChangeClothes();
+    }
+
+    public void SetOnCloset(bool value) => _onCloset = value;
 }
 
 public enum ClothesType

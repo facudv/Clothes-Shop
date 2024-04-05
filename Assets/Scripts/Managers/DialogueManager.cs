@@ -17,7 +17,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
-        Show(false);
+        //Show(false);
     }
 
     private void Update()

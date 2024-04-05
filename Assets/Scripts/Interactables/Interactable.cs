@@ -11,7 +11,9 @@ public class Interactable : MonoBehaviour
     private bool CanPerformInteract => _interact;
     private bool _interact;
 
-    public Action OnInteract;
+    protected Action OnInteract;
+    protected Action OnPlayerTriggerEnter;
+    protected Action OnPlayerTriggerExit;
 
     public virtual void Start()
     {
@@ -27,6 +29,7 @@ public class Interactable : MonoBehaviour
         {
             EnableInteraction(true);
             EnableFeedBack(true);
+            OnPlayerTriggerEnter?.Invoke();
         }
     }
 
@@ -36,7 +39,8 @@ public class Interactable : MonoBehaviour
         if (player)
         {
             EnableInteraction(false);
-            EnableFeedBack(false);  
+            EnableFeedBack(false);
+            OnPlayerTriggerExit?.Invoke();
         }
     }
 
@@ -55,6 +59,6 @@ public class Interactable : MonoBehaviour
     {
     }
 
-    private void EnableFeedBack(bool value) => feedBack.SetActive(value);
+    private void EnableFeedBack(bool value) => feedBack?.SetActive(value);
     private void EnableInteraction(bool value) => _interact = value;
 }

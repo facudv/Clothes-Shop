@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2957519106085427923
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1224399512998961495, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+      propertyPath: m_Name
+      value: Interactable Variant Closet
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1224399512998961448, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+--- !u!1 &4176744694712236932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1224399512998961495, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+  m_PrefabInstance: {fileID: 2957519106085427923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &613441006415989870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4176744694712236932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba05749a0729e3f4696faf4316dcf852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posFeedback: {fileID: 0}
+  clothesManager: {fileID: 0}

@@ -1,24 +1,43 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    [SerializeField] public float initialCharacterCurrency;
-    private float _characterCurrency;
-
-    private void Awake()
-    {
-        Instance = this;
-        SetCurrency(initialCharacterCurrency);
-    }
-
     public GameObject Player;
     public DialogueManager DialogueManager;
     public UIClothes UIClothes;
     public UICurrency UICurrency;
+    public ClothesManager clothesManager;
+
+    [SerializeField] private float initialCharacterCurrency;
+    private float _characterCurrency;
+
+    [SerializeField] private DialogueContainer tutorialDialogue;
+
+    private void Awake()
+    {
+        Instance = this;
+        SetTutorial();
+        SetCurrency(initialCharacterCurrency);
+        SetUIClothesLogic();
+    }
+
+    private void SetUIClothesLogic()
+    {
+        UIClothes.GetSantaClaus().GetComponentInChildren<Button>().onClick.AddListener(() => clothesManager.SetClothes(ClothesType.SantaClaus));
+        UIClothes.GetRainbow().GetComponentInChildren<Button>().onClick.AddListener(() => clothesManager.SetClothes(ClothesType.Rainbow));
+        UIClothes.GetLeatherSuit().GetComponentInChildren<Button>().onClick.AddListener(() => clothesManager.SetClothes(ClothesType.LeatherSuit));
+    }
+
+    private void SetTutorial()
+    {
+        DialogueManager.Initialize(tutorialDialogue);
+    }
 
     public void SetCurrency(float value)
     {

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -12,16 +13,31 @@ public class Clothes : Interactable
     private bool _bought;
     private bool IsBought => _bought;
 
+    private void IsBoughtUI() => GameManager.Instance.DialogueManager.Initialize(dialogue);
+
+    private void UpdateCurrency()
+    {
+        float currentCurrency = GameManager.Instance.GetCurrency();
+        float resultCurrency = currentCurrency - currencyCost;
+        GameManager.Instance.SetCurrency(resultCurrency);
+        _bought = true;
+    }
+
+    private void SetCurrencyText()
+    {
+        TextMeshProUGUI textCurrency = GetComponentInChildren<TextMeshProUGUI>(true);
+        if (textCurrency != null)
+        {
+            textCurrency.text = currencyCost.ToString();
+        }
+    }
+
     public override void Start()
     {
         base.Start();
         OnInteract += Interact;
+        SetCurrencyText();
     }
-
-    //private void OnDestroy()
-    //{
-    //    OnInteract -= Interact;
-    //}
 
     public override void Interact()
     {
@@ -50,13 +66,4 @@ public class Clothes : Interactable
         _bought = true;
     }
 
-    private void IsBoughtUI() => GameManager.Instance.DialogueManager.Initialize(dialogue);
-
-    private void UpdateCurrency()
-    {
-        float currentCurrency = GameManager.Instance.GetCurrency();
-        float resultCurrency = currentCurrency - currencyCost;
-        GameManager.Instance.SetCurrency(resultCurrency);
-        _bought = true;
-    }
 }
