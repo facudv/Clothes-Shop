@@ -224,10 +224,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1224399512998961448, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
 --- !u!4 &5613700760827124370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1224399512998961494, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
   m_PrefabInstance: {fileID: 6708727130408500164}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5613700760827124371 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1224399512998961495, guid: a89d8002452a3b94783f7e0ca7ea6d0d, type: 3}
+  m_PrefabInstance: {fileID: 6708727130408500164}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8939620875063003797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5613700760827124371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a4c18481aaf0ad41b2f1a81e3710808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posFeedback: {fileID: 0}
+  clotheType: 0

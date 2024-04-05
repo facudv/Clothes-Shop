@@ -15,6 +15,7 @@ public class Interactable : MonoBehaviour
 
     public virtual void Start()
     {
+         if (posFeedback == null) return;
          feedBack = posFeedback.GetComponentInChildren<Transform>().gameObject;
          EnableFeedBack(false);
     }
@@ -45,14 +46,13 @@ public class Interactable : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.E))
             {
-                Interact();
+                OnInteract?.Invoke();
             }
         }
     }
 
     public virtual void Interact()
     {
-        OnInteract?.Invoke();
     }
 
     private void EnableFeedBack(bool value) => feedBack.SetActive(value);

@@ -200,8 +200,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: ClothingCounter Variant LeatherSuit
       objectReference: {fileID: 0}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 82ebece6616de3a468ff9acd988815fb, type: 2}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: clotheType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: posFeedback
+      value: 
+      objectReference: {fileID: 313400228516781033}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: currencyCost
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+--- !u!1 &313400228516781033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8480320743696895496, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+  m_PrefabInstance: {fileID: 8208176534627472865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7005739978313425251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1211519382563665026, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}

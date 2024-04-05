@@ -196,10 +196,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 5613700760827124460, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
-      propertyPath: feedBack
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6029616004623824711, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
       propertyPath: m_Name
       value: ClothingCounter Variant Rainbow
@@ -208,8 +204,29 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: dialogue
+      value: 
+      objectReference: {fileID: 11400000, guid: 82ebece6616de3a468ff9acd988815fb, type: 2}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: clotheType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: posFeedback
+      value: 
+      objectReference: {fileID: 3380293235823209742}
+    - target: {fileID: 8939620875063003797, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+      propertyPath: currencyCost
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+--- !u!1 &3380293235823209742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8480320743696895496, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}
+  m_PrefabInstance: {fileID: 6582309926600434438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4982472467950686103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2196732213760273553, guid: 142838f753c88a1419a3c888c2f9a248, type: 3}

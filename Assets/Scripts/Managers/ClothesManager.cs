@@ -32,12 +32,12 @@ public class ClothesManager : MonoBehaviour
             resolver.SetCategoryAndLabel(resolver.GetCategory(), _clothsType.ToString());
         }
     }
+}
 
-    private enum ClothesType
-    {
-        Base,
-        LeatherSuit,
-        SantaClaus,
-        Rainbow,
-    }
+public enum ClothesType
+{
+    Base,
+    LeatherSuit,
+    SantaClaus,
+    Rainbow,
 }
