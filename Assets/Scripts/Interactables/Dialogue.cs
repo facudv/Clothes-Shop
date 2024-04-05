@@ -1,12 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Dialogue : Interactable
 {
     [SerializeField] DialogueContainer dialogue;
 
-    // Start is called before the first frame update
     public override void Start()
     {
         base.Start();

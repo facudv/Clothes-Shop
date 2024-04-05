@@ -487,7 +487,7 @@ GameObject:
   m_Component:
   - component: {fileID: 583049655}
   m_Layer: 5
-  m_Name: SantaClaus (1)
+  m_Name: Information
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 1312089100}
   - component: {fileID: 1312089099}
   m_Layer: 0
-  m_Name: CM vcam1
+  m_Name: VirtualCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

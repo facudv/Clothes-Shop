@@ -1,8 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,11 +10,6 @@ public class DialogueManager : MonoBehaviour
 
     DialogueContainer currentDialogue;
     int _currentTextLine;
-
-    private void Start()
-    {
-        //Show(false);
-    }
 
     private void Update()
     {
